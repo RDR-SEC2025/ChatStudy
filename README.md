@@ -1,4 +1,5 @@
 # Ex. No:1b 			Study of Client Server Chat Applications
+# Reference no: 25002753
 
 ## Aim: 
 To perform a study on Client Server Chat Applications
@@ -72,6 +73,53 @@ User authentication mechanisms are essential to ensure secure and authorized acc
 Client-server chat applications are versatile tools that facilitate real-time communication between users over a network. They incorporate various components, including server-side and client-side elements, and must consider factors such as security, scalability, and concurrency. As technology continues to advance, client-server chat applications remain integral for collaborative communication in various domains.
 
 Client-server chat applications are foundational to real-time communication over networks. They incorporate principles of socket programming, communication protocols, and security mechanisms to provide a seamless user experience. Understanding the basics of client-server chat applications is essential for developers involved in networked application development, as they form the backbone of various collaborative communication systems. As technology evolves, chat applications continue to adapt, incorporating new features and technologies to enhance user interaction and connectivity.
+
+ALGORITHM:-
+
+Server side:
+
+1. Start
+2. Import the socket module
+3. Create a socket using socket.socket()
+4. Display “Socket successfully created”
+5. Assign port number 12345
+6. Bind the socket to the port number
+7. Display “socket binded to 12345”
+8. Put the socket into listening mode using listen()
+9. Display “socket is listening”
+10. Stop
+
+
+Client side:
+
+1. Start
+2. Import the socket module
+3. Create a socket using socket.socket()
+4. Assign port number 12345
+5. Connect to the server using IP address 127.0.0.1 and port number
+6. Receive data from the server
+7. Decode the received data
+8. Display the received message
+9. Close the socket connection
+10. Stop
+
+
+PROGRAM:-
+
+Server side:
+
+<img width="755" height="464" alt="image" src="https://github.com/user-attachments/assets/b4e5a216-434b-496e-a237-630621c0a7ef" />
+
+
+Client side:
+
+<img width="553" height="222" alt="image" src="https://github.com/user-attachments/assets/362c0b29-b057-4aa8-8108-7767ef2abc2a" />
+
+
+OUTPUT:-
+
+<img width="940" height="236" alt="image" src="https://github.com/user-attachments/assets/d2497eed-fe2c-4ac8-8acf-7e4b17289084" />
+<img width="940" height="198" alt="image" src="https://github.com/user-attachments/assets/b37a261e-b101-47b0-9899-d2e1fa411bc1" />
 
 
 ## Result:
