@@ -1,5 +1,5 @@
 # Ex. No:1b 			Study of Client Server Chat Applications
-# Reference no: 25002753
+# Register no: 212225100039
 
 ## Aim: 
 To perform a study on Client Server Chat Applications
@@ -76,50 +76,59 @@ Client-server chat applications are foundational to real-time communication over
 
 ALGORITHM:-
 
-Server side:
+Server Side (serverside.py)
 
-1. Start
-2. Import the socket module
-3. Create a socket using socket.socket()
-4. Display “Socket successfully created”
-5. Assign port number 12345
-6. Bind the socket to the port number
-7. Display “socket binded to 12345”
-8. Put the socket into listening mode using listen()
-9. Display “socket is listening”
-10. Stop
+Step 1: Start
+Step 2: Import the socket module
+Step 3: Create a socket using IPv4 (AF_INET) and TCP (SOCK_STREAM)
+Step 4: Bind the socket to IP address 127.0.0.1 and port number 12345
+Step 5: Put the socket into listening mode
+Step 6: Display message “Server is listening”
+Step 7: Accept an incoming client connection
+Step 8: Display message “Client connected”
+Step 9: Repeat the following steps until client sends "exit"
+    a) Receive message from client
+    b) Display the received message
+    c) Read reply from server user
+    d) Send reply to the client
+Step 10: Close the client socket
+Step 11: Close the server socket
+Step 12: Stop
 
+Client Side (clientside.py)
 
-Client side:
+Step 1: Start
+Step 2: Import the socket module
+Step 3: Create a socket using IPv4 (AF_INET) and TCP (SOCK_STREAM)
+Step 4: Connect the socket to server IP 127.0.0.1 and port 12345
+Step 5: Display message “Connected to server”
+Step 6: Repeat the following steps until user enters "exit"
+    a) Read message from client user
+    b) Send message to the server
+    c) Receive reply from server
+    d) Display server reply
+Step 7: Close the client socket
+Step 8: Stop
 
-1. Start
-2. Import the socket module
-3. Create a socket using socket.socket()
-4. Assign port number 12345
-5. Connect to the server using IP address 127.0.0.1 and port number
-6. Receive data from the server
-7. Decode the received data
-8. Display the received message
-9. Close the socket connection
-10. Stop
 
 
 PROGRAM:-
 
 Server side:
 
-<img width="755" height="464" alt="image" src="https://github.com/user-attachments/assets/b4e5a216-434b-496e-a237-630621c0a7ef" />
+<img width="532" height="267" alt="image" src="https://github.com/user-attachments/assets/d4eaf901-4743-4318-8be7-b3b82f33c1c7" />
 
 
 Client side:
 
-<img width="553" height="222" alt="image" src="https://github.com/user-attachments/assets/362c0b29-b057-4aa8-8108-7767ef2abc2a" />
+<img width="402" height="391" alt="image" src="https://github.com/user-attachments/assets/47e4bd48-9b2a-496c-b5ff-5de21f48b606" />
 
 
 OUTPUT:-
 
-<img width="940" height="236" alt="image" src="https://github.com/user-attachments/assets/d2497eed-fe2c-4ac8-8acf-7e4b17289084" />
-<img width="940" height="198" alt="image" src="https://github.com/user-attachments/assets/b37a261e-b101-47b0-9899-d2e1fa411bc1" />
+<img width="448" height="121" alt="image" src="https://github.com/user-attachments/assets/5b853d14-c050-4fad-8b1b-89fc75bf0c8c" />
+<img width="410" height="162" alt="image" src="https://github.com/user-attachments/assets/ae93a83d-cd03-4f76-b91b-b6e39ef31651" />
+
 
 
 ## Result:
