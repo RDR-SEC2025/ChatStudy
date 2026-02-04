@@ -77,7 +77,7 @@ Client-server chat applications are foundational to real-time communication over
 ALGORITHM:-
 
 Server Side (serverside.py)
-
+```
 Step 1: Start
 Step 2: Import the socket module
 Step 3: Create a socket using IPv4 (AF_INET) and TCP (SOCK_STREAM)
@@ -94,9 +94,10 @@ Step 9: Repeat the following steps until client sends "exit"
 Step 10: Close the client socket
 Step 11: Close the server socket
 Step 12: Stop
+```
 
 Client Side (clientside.py)
-
+```
 Step 1: Start
 Step 2: Import the socket module
 Step 3: Create a socket using IPv4 (AF_INET) and TCP (SOCK_STREAM)
@@ -109,7 +110,7 @@ Step 6: Repeat the following steps until user enters "exit"
     d) Display server reply
 Step 7: Close the client socket
 Step 8: Stop
-
+```
 
 
 PROGRAM:-
