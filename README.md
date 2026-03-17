@@ -115,12 +115,12 @@ Step 8: Stop
 
 PROGRAM:-
 
-Server side:
+Client side:
 
 <img width="532" height="267" alt="image" src="https://github.com/user-attachments/assets/d4eaf901-4743-4318-8be7-b3b82f33c1c7" />
 
 
-Client side:
+Server side:
 
 <img width="402" height="391" alt="image" src="https://github.com/user-attachments/assets/47e4bd48-9b2a-496c-b5ff-5de21f48b606" />
 
